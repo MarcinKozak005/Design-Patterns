@@ -1,11 +1,11 @@
 package Adapter;
 
 public class Adapter {
-    Adapted elemAdaptowany;
+    Adapted adaptedElement;
 
-    Adapter(Adapted obiekt){elemAdaptowany = obiekt;}
+    Adapter(Adapted obj){adaptedElement = obj;}
 
     void newOperation(){
-        this.elemAdaptowany.oldOperation();
+        this.adaptedElement.oldOperation();
     }
 }
